@@ -1,7 +1,8 @@
 # Bounty
 A website where one can create a group, add members, and members are randomly paired with another whom they must "assassinate".
 
-
+Rails version: 5.0.0.1
+Ruby version: 2.3.0 (x86_64-linux)
 
 START DATE: mid-November (currently planning and organizing other events/school work to free up time for this project)
 END DATE: projected to be End of Christmas Break (January 16)

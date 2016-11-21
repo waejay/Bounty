@@ -1,0 +1,31 @@
+This file serves as a documentation for all (probably will end up being just most) of the actions I have taken in this development.
+
+Format:
+[DATE | TIME]
+-Action1
+-Action2
+-Action3
+
+---------------------------------
+
+[11-9-16 | 2:21 pm]
+-Created Rails framework
+-In Gemfile, added 
+		[gem 'therubyracer', platforms: :ruby]
+ to satisfy what the terminal keeps spitting out about javascript runtime and stuff.
+ -Yaaaaaaaaassss local server's functioning and everything
+
+---------------------------------
+
+[11-21-16 | 12:03 pm]
+-Added default page
+-Implemented Bootstrap
+	*Remember to restart server with [$ rails s] because of error after @import bootstrap
+-In 'development.rb', set [config.assets.debug] to false because of slow view rendering
+
+[11-21-16 | 3:14 pm]
+-Home Page fundamentals up
+	-Found color palette
+
+
+
