@@ -27,5 +27,11 @@ Format:
 -Home Page fundamentals up
 	-Found color palette
 
+---------------------------------
+
+[11-22-16 | 1:22 pm]
+-Added "How to Play" page
+-smh right now I'm not even adhering to DRY principles.
+	-For now, getting pages up and running, then before implementing group database, will translate all code to Ruby on Rails-happy layout (helpers, ruby syntax, etc)
 
 

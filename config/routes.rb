@@ -4,6 +4,6 @@ Rails.application.routes.draw do
 	root 'welcome#home' 
 
 	# creates the pages
-  get 'welcome/home'
-
+	get 'home', to: 'welcome#home'
+  get '/howto', to: 'welcome#howto'
 end

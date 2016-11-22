@@ -65,9 +65,27 @@ header .intro-text .name {
   text-shadow: 10px 10px #AB3D51;
 
 }
+
+header .intro-text .second-head {
+  display: block;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 5em;
+  text-align: center;
+  text-shadow: 10px 10px #AB3D51;
+}
 header .intro-text .skills {
   font-size: 1.25em;
   font-weight: 300;
+}
+
+header .intro-text .main-body {
+  font-size: 1.5em;
+  text-transform: none;
+  padding-left: 150px;
+  padding-right: 150px;
+  line-height: 1.5;
 }
 
 footer {
