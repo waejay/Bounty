@@ -34,4 +34,11 @@ Format:
 -smh right now I'm not even adhering to DRY principles.
 	-For now, getting pages up and running, then before implementing group database, will translate all code to Ruby on Rails-happy layout (helpers, ruby syntax, etc)
 
+---------------------------------
 
+[12-25-16 | 3:45 pm]
+-Changed application.css.sass to application.scss
+-Cleaned up view codes for controller Welcome
+-Implemented gem Devise
+-FUTURE-TO-DO [] : in production, set [:host] to actual host
+-Started pages for sign up / log in
