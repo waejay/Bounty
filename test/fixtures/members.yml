@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  firstname: MyString
+  lastname: MyString
+  opponent: 1
+  User: one
+
+two:
+  firstname: MyString
+  lastname: MyString
+  opponent: 1
+  User: two

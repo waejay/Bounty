@@ -42,3 +42,19 @@ Format:
 -Implemented gem Devise
 -FUTURE-TO-DO [] : in production, set [:host] to actual host
 -Started pages for sign up / log in
+
+---------------------------------
+
+[1-2-17 | 6:00 pm]
+-Created new model Members
+-Now redirects signed in users to controller path main#start
+-Added two buttons
+	1) Button for adding members => main#add
+	2) Button for Randomizing and outputting Member opponents => main#game 
+-[ ] TODO: Link the buttons to respective sites
+
+
+[1-3-17 | 6:30 pm]
+-Started on the '/game' page
+	-Added functionality for forms
+	-Need to connect forms to model Member of User

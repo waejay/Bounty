@@ -1,5 +1,8 @@
 class WelcomeController < ApplicationController
   def home
+    if user_signed_in?
+      redirect_to start_path
+    end
   end
 
   def howto

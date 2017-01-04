@@ -1,0 +1,32 @@
+<header>
+	<h2> This is the game page </h2>
+	<p> Here will be each player paired with another (no duplicates), an option to delete one player off the bracket, and links </p>
+
+	<h3><%= link_to 'Go Back', root_path, {:style => 'color:white'}%></h3>
+
+	
+
+</header>
+
+<body>
+
+	<div class="center">
+
+		<!-- TODO: Change this to Rails syntax and connect to model Members -->
+		<p> First Name  <% (0..15).each do %>&nbsp;<% end %>  Last Name</p>
+		<form>
+			<% (0..4).each do %>
+				<% (0..1).each do %>
+					<input type="text"> 
+					&nbsp;
+				<% end %>
+				<br> <br>
+			<% end %>
+
+			<input type="submit" action="start">
+		</form>
+
+			
+	</div>
+		}
+</body>
